@@ -43,7 +43,7 @@ retrieve_data <- function(database, sheet){
   return(dataframe)
 }
 
-df1 <- retrieve_data("PAZ(Maraguin1212)*", 2)
+df1 <- retrieve_data("<NAME STARTS WITH>*", 2)
 
 #files <- as.list(x$sheet_title)
 
@@ -95,7 +95,7 @@ for (i in 1:length(dfs$name)){
 
 general_dataset <- do.call(rbind, mget(as.vector(dfs$name[dfs$tweets == 1])))
 
-save(general_dataset,file="tweets_peace.Rda")
+save(general_dataset,file="tweets.Rda")
 
 
 
