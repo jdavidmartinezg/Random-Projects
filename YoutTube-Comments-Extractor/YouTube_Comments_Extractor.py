@@ -73,8 +73,7 @@ from functools import reduce
 
 
 developer_key = "<YOUR CLIENT SECRET HERE>"
-# alternative developer key
-# developer_key = "AIzaSyCmb020Ke_LIRvnewigKY-IFKEE4yIaY-E"
+
 
 
 
